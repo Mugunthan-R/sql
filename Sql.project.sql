@@ -17,5 +17,5 @@ where student_major="CSE";
 Select * from Students
 where student_age=(Select max(student_age) from Students);
 Select * from Students;
-update Students set student_major = 'CSE' WHERE student_id = 2;
+update Students set student_major = 'CS' WHERE student_id = 2;
 delete from Students where student_id=2;
